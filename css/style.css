@@ -1,3 +1,9 @@
+:root{
+  font-family: 'Gayathri', sans-serif;
+  font-family: 'Exo 2', sans-serif;
+}
+
+
 
 body{
   background-color:yellowgreen;
@@ -19,6 +25,7 @@ body{
     text-decoration: none;
     margin-left: 32px;
     color: black;
+    font-family: 'Gayathri', sans-serif;
   }
   
 
@@ -34,22 +41,34 @@ body{
   .parte1 h1{
     color:red;
     text-align: center;
+    font-family: 'Exo 2', sans-serif;
    
     
   }
-.parte2 img{
+  .parte2{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+.parte2 #ig1{
    
-  height: 500px;
+  height: 400px;
   width: 600px;
 }
-.parte2 a{
-  text-align: center;
+.parte2 h1{
+  
   color: red;
-  text-decoration: none;
-  margin-right: 8px;
-  display: flex;
-  align-items: center;
-  border-bottom: 2px solid grey;
-  padding-bottom: 4px;
+  margin:auto;
+  border-bottom: 3px solid blue;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
  
 }
+
+
+.parte2 #ig2{
+  
+  height: 400px;
+  width: 400px;
+padding: 20px;
+}
+
