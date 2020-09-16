@@ -67,38 +67,12 @@ div.parte3{
   width: 100%;
 }
 
-/*.parte3 #ig2{
-  
-  height: 400px;
-  width: 400px;
- 
-}
-
-.parte3 h2{
-  color: red;
-  text-align: left;
-  margin: auto;
-  border-bottom: 2px solid blue;
-}
-.parte3 h2{
-
-
-}
-.parte3 #ig3{
-  height: 400px;
-  width: 400px;
-}
-.parte3 #ig4{
-  height: 400px;
-  width: 400px;
-}
-*/
 div.box{
   text-align: center;
   margin: 20px;
   min-width: 95%;
   border: 1px solid black;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 20px;
 }
 
@@ -111,15 +85,74 @@ div.box.box-desc div{
   max-width: 50%;
   text-align: left;
 }
+
 div.text-desc{
-  padding: 20px;
+  padding-left: 3%;
+  max-width: 47% !important;
+}
+
+div.suscribir{
+  max-width: 100% !important;
 }
 
 div.box.box-desc img{
   width: 100%;
 }
 
-@media screen and ( min-width:600px){
+.input-suscribe{
+  width: 30%;
+  height: 40px;
+  margin: 20px
+}
+
+.button-suscribe{
+  width: 20%;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: lightblue;
+  font-size: 15px;
+}
+
+.partefinal .box{
+  display: flex;
+  padding-left: 30px;
+  text-align: left !important;
+}
+
+.partefinal i{
+  color: white;
+  font-size: 30px;
+  padding: 10px 10px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius:50%;
+  width: 30px;
+  text-align: center;
+}
+
+.box-item img{
+  width: 100% !important;
+}
+
+@media screen and ( min-width:800px){
+
+  div.parte3{
+    display: flex;
+    flex-direction: wrap;
+    align-content: space-between;
+    width: 100%;
+  }
+
+  .box-item{
+    text-align: center !important;
+    margin: 20px !important;
+    width: 30% !important;
+    border: 1px solid black !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
+    min-width: 30% !important;
+  }
 
   .menu ul {
     display: flex;
@@ -142,7 +175,7 @@ div.box.box-desc img{
     padding: 500px 40px 500px 40px;
     background-image:url("../img/jt1.jpg");
     background-repeat: no-repeat; 
-   background-size: 1000px 100%; 
+    background-size: 1000px 100%; 
     background-position: center;
 
   }
