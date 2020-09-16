@@ -60,19 +60,20 @@ body{
  
 }
 
+div.parte3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
 
-.parte3 #ig2{
+/*.parte3 #ig2{
   
   height: 400px;
   width: 400px;
  
 }
 
-.parte3{
-  display: grid;
-  grid-template-columns: 1fr;
-
-}
 .parte3 h2{
   color: red;
   text-align: left;
@@ -90,6 +91,32 @@ body{
 .parte3 #ig4{
   height: 400px;
   width: 400px;
+}
+*/
+div.box{
+  text-align: center;
+  margin: 20px;
+  min-width: 95%;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+div.box.box-desc{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.box.box-desc div{
+  max-width: 50%;
+  text-align: left;
+}
+div.text-desc{
+  padding: 20px;
+}
+
+div.box.box-desc img{
+  width: 100%;
 }
 
 @media screen and ( min-width:600px){
