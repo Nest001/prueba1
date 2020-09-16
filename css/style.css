@@ -139,8 +139,8 @@ div.box.box-desc img{
 
   div.parte3{
     display: flex;
-    flex-direction: wrap;
-    align-content: space-between;
+    align-content: space-between !important;
+    flex-direction: initial;
     width: 100%;
   }
 
